@@ -81,7 +81,7 @@ col1, col2 = st.columns(2)
 # Film Section
 with col1:
     st.markdown(f"""
-    <a href="/Film" target="_self">
+    <a href="/film" target="_self">
         <div class="media-card">
             <div class="media-title">🎬 Film</div>
             <div class="media-count">{films_count} Film tersedia</div>
@@ -92,7 +92,7 @@ with col1:
 # Audiobook Section
 with col2:
     st.markdown(f"""
-    <a href="/Audiobook" target="_self">
+    <a href="/audiobook" target="_self">
         <div class="media-card">
             <div class="media-title">🎧 Audiobook</div>
             <div class="media-count">{audiobooks_count} Audiobook tersedia</div>
