@@ -4,7 +4,7 @@ import pandas as pd
 import math
 
 st.set_page_config(
-    page_title="Koleksi Film",
+    page_title="Film",
     page_icon="🎬",
     layout="wide"
 )
@@ -35,7 +35,7 @@ def search_films(df, query):
 # Layout with search at top left
 col1, col2 = st.columns([3, 1])
 with col1:
-    st.title("🎬 Koleksi Film")
+    st.title("🎬 Film")
 with col2:
     search_query = st.text_input("🔍 Cari Film", placeholder="Judul, sutradara, pemain...")
 
