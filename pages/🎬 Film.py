@@ -268,7 +268,7 @@ try:
             border-radius: 10px;
             padding: 15px;
             margin-bottom: 15px;
-            background-color: white;
+            background-color: var(--background-color);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             height: 500px;
             display: flex;
